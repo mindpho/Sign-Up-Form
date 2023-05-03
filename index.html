@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1><u>Sign Up Form</u></h1>
+    <div id="frame">
+      <form action="www.mindpho.com" method="post">
+        <div>
+          <p>Name:</p>
+          <input type="text" name="first_name" id="first_name" placeholder="First Name" size="27" required/>
+          <input type="text" name="last_name" id="last_name" placeholder="Last Name" size="27" style="margin-left: 5px" required/>
+        </div>
+        <div>
+          <p>Email:</p>
+          <input type="email" name="email" id="email" placeholder="Enter your email" size="60" required/>
+        </div>
+        <div>
+          <p>Password:</p>
+          <input type="password" name="password" id="password" placeholder="Enter your password" size="60" required/>
+        </div>
+        <div>
+          <p>Confirm Password:</p>
+          <input type="password" name="confirm_password" id="confirm_password" placeholder="Re-enter your password" size="60" required/>
+        </div>
+        <div>
+          <input type="checkbox" id="term" name="term" value="check_term" style="margin-top: 40px" required/>
+          <label for="check_term" style="font-size: 20px; color: yellow">I accept the Terms of Use & Privacy Policy</label>
+        </div>        
+      </form>
+      <button type="submit" onclick="showClick()" id="sign_up">Sign Up</button>
+    </div>
+    <div id="greeting">
+      <p style="color: black; text-align: center">Thanks for signing up!</p>
+    </div>
+  </body>
+</html>
