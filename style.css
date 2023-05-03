@@ -1,0 +1,53 @@
+h1 {
+  text-align: center;
+  margin-top: 30px;  
+}
+
+body {
+  background-color: papayawhip;
+}
+
+#frame {
+  border: 1px;
+  height: 650px;
+  width: 800px;
+  box-shadow: 5px 10px 20px darkslateblue;
+  background-color: mediumpurple;
+  border-radius: 25px;
+  margin: auto;
+  padding: 10px;
+}
+
+p {
+  font-size: 25px;
+  margin-left: 40px;
+  margin-top: 30px;
+  color: yellow;
+  font-weight: bold;
+}
+
+input {
+  font-size: 20px;
+  margin-left: 70px;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 50px;
+  margin-left: 300px;
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 10px;
+  background-color: palegoldenrod;
+}
+
+#greeting {
+  border: 1px;
+  background-color: pink;
+  height: 100px;
+  width: 900px;
+  margin-left: 500px;
+  line-height: 100px;
+  display: none;
+}
